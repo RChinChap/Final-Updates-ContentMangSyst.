@@ -37,12 +37,13 @@ public class ArticleInfo {
         this.posted = status;
         this.paragraphs = para;
         this.headings = header;
+    }
 
+    public ArticleInfo()
+    {
         headings = new String[maxNumHeaders];
         paragraphs = new String[maxNumParagraphs];
     }
-
-    public ArticleInfo(){}
 
     /**
      * @author brie okeefe
